@@ -1,0 +1,37 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-4 {
+  flex: 0 0 33.333%; /* Asegura que ocupe un tercio del ancho */
+  max-width: 33.333%;
+  box-sizing: border-box; /* Incluye padding/margin en el tamaño total */
+}
+
+.card {
+  height: 600px; /* Asegura que las cards se expandan según el contenido */
+}
+
+
+.card img {
+  height: 250px; /* Asegura un tamaño más grande para las imágenes */
+  width: 100%; /* Asegura que ocupen todo el ancho */
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px; /* Espaciado interno */
+}
+
+.main-section {
+  background-image: url('../img/img-main.jpeg');
+  background-size: cover; /* Imagen cubre todo el espacio */
+  background-position: center; /* Centra la imagen */
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
